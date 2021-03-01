@@ -28,7 +28,27 @@ family=Lato -> Títulos, textos
 /* FONTS​ */
 
 /* VARIÁVEIS */
-:root{}
+:root{
+    --branco: #FFFFFF;
+    --azulClaro: #007aff;
+    --azulEscuro: #00043e;
+    --cinza: #303030;
+    --cinzaClaro: #818181;
+    --font: 'Montserrat', 'Lato';
+    /*FONT SIZE*/
+    --secaoDestaque-titulo: 63px;
+    --secaoDestaque-subtitulo: 21px;
+    --secaoDestaque-botaoSubscribe: 14px;
+    --secaoSobre-titulo: 24px;
+    --secaoSobre-texto: 19px;
+    --secaoCurses-titulo: 19px;
+    --secaoCurses-texto: 15px;
+    --secaoCalendario-datas: 36px;
+    --secaoCalendario-titulo: 19px;
+    --secaoCalendario-texto: 15px;
+    --secaoCalendario-botaoSignUp: 32px;
+    --secaoContato-informacoes: 15px;
+}
   
 /* GERAL */
 html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
