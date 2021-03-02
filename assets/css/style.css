@@ -160,6 +160,7 @@ header{
         text-align: center;
         margin: 0 auto;
         padding: 7px;
+        letter-spacing: 2px;
     }
 
     .topo .large-container nav ul li a{
@@ -208,6 +209,7 @@ main{}
         .secaoDestaque h2{
             font-size: var(--secaoDestaque-titulo);
             text-align: center;
+            font-weight: lighter;
         }
         .secaoDestaque p{
             font-size: var(--secaoDestaque-subtitulo);
@@ -234,7 +236,7 @@ main{}
 
             .secaoDestaque .secaoDestaqueFormulario button{
                 border: none;
-                padding: 10px 20px;
+                padding: 10px 10px;
                 border-bottom-right-radius: 5px;
                 border-top-right-radius: 5px;
                 border-left: 0;
@@ -276,7 +278,7 @@ main{}
             .secaoSobre .flex .flex-col button{
                 font-size: var(--secaoSobre-texto);
                 width: 300px;
-                padding: 15px 90px;
+                padding: 15px ;
                 margin: 40px 0;
                 background-color: var(--branco);
                 border: none;
@@ -288,7 +290,6 @@ main{}
                 letter-spacing: 1px;
                 box-shadow: 1px 1px 1px 1px var(--cinza);
             }
-
             .flex-col-js{
                 background-color: var(--cinzaSuperClaro);
             }
@@ -314,6 +315,7 @@ main{}
             }
             .flex-col ul{
                 list-style: disc;
+                width: 300px;
             }
             .flex-col ul li{
                 color: var(--cinzaClaro);
@@ -697,6 +699,11 @@ label{
             justify-content: center;
         }
 
+        .secaoSobre .flex .flex-col button{
+            width: 130px;
+            text-align: center;
+        }
+
         .flex-col{
             display: block;
             width: 700px;
@@ -709,10 +716,15 @@ label{
             justify-content: center;
         }
 
+        #python-img img{
+            width: 500px;
+            height: auto;
+        }
+
         .flex-col-js{
             display: flex;
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-around;
         }
 
         .flex-col figure{
@@ -723,6 +735,10 @@ label{
         .flex-col figure img{
             width: 300px;
             height: auto;
+        }
+
+        .flex-col ul{
+            width: 650px;
         }
 
 /***********************MATHEUS**************************/
