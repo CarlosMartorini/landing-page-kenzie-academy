@@ -292,6 +292,7 @@ main{}
             }
             .flex-col-js{
                 background-color: var(--cinzaSuperClaro);
+                justify-content: center;
             }
         
             .flex-col figure{
@@ -315,9 +316,11 @@ main{}
             }
             .flex-col ul{
                 list-style: disc;
-                width: 300px;
+                text-align: center;
+                width: 70%;
             }
             .flex-col ul li{
+                text-align: left;
                 color: var(--cinzaClaro);
                 line-height: 2rem;
                 font-size: var(--secaoSobre-texto);
