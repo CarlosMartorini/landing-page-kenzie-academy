@@ -46,7 +46,7 @@ family=Lato -> Títulos, textos
     --secaoCalendario-datas: 36px;
     --secaoCalendario-titulo: 19px;
     --secaoCalendario-texto: 15px;
-    --secaoCalendario-botaoSignUp: 32px;
+    --secaoCalendario-botaoSignUp: 24px;
     --secaoContato-informacoes: 15px;
 }
   
@@ -79,6 +79,7 @@ div.container{
     max-width: 1140px;
     margin:0 auto;
 }
+
 /* GERAL */
   
 /* HTML */
@@ -86,7 +87,9 @@ html{}
 /* HTML */
   
 /* BODY */
-body{}
+body{
+    
+}
 /* BODY */
   
 ​
@@ -106,7 +109,8 @@ main{}
   
 ​
 /* EXTRAS */
-​
+
+
 /* para estilizar a scrollbar */
 ::-webkit-scrollbar{}
 ::-webkit-scrollbar-button{}
@@ -120,7 +124,7 @@ main{}
   
 ​
 /* MEDIA QUERIES */
-    ​@media screen and (min-width: 400px) {}
+    /* ​@media screen and (min-width: 400px) {}
   
-    @media screen and (min-width: 800px) {}
+    @media screen and (min-width: 800px) {} */
 /* MEDIA QUERIES */
